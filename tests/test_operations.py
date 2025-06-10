@@ -1,4 +1,4 @@
-from app.operations import addition
+from app.operations import addition, substraction, multiplication
 
 def test_addition():
     assert addition(1,1) == 2
